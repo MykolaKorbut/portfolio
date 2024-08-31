@@ -13,5 +13,9 @@ with col2:
     Hi, I am Mykola! I am a Python beginner. I started learn python with Python Mega Course by Ardit Sulce.
     This is my portfolio app. 
     """
-
     st.info(content)
+
+content2 = """
+Below you can find some of the apps I have built in Python. Feel free to contact me!
+"""
+st.write(content2)
