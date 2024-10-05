@@ -12,7 +12,7 @@ with col2:
     st.title("Mykola Korbut")
     content = """
     Hi, I am Mykola! I am a Python beginner. I started to learn python with Python Mega Course by Ardit Sulce.
-    This is my portfolio app. 
+    This is my app portfolio. 
     """
     st.info(content)
 
