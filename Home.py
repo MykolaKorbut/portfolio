@@ -11,7 +11,7 @@ with col1:
 with col2:
     st.title("Mykola Korbut")
     content = """
-    Hi, I am Mykola! I am a Python beginner. I started to learn python with Python Mega Course by Ardit Sulce.
+    Hi, I am Mykola! I am a Python beginner.
     This is my app portfolio. 
     """
     st.info(content)
@@ -29,12 +29,12 @@ with col3:
     for index, row in df[:10].iterrows():
         st.header(row["title"])
         st.write(row["description"])
-        st.image("images/" + row["image"])
+        st.image("images/" + row["image"], width=300)
         st.write(f"[Source code]({row['url']})")
 
 with col4:
     for index, row in df[10:].iterrows():
         st.header(row["title"])
         st.write(row["description"])
-        st.image("images/" + row["image"])
+        st.image("images/" + row["image"], width=300)
         st.write(f"[Source code]({row['url']})")

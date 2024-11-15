@@ -2,6 +2,7 @@ import streamlit as st
 from send_email import send_email
 
 st.header("Contact Me")
+st.info("My email: mykolakorbut@icloud.com")
 
 with st.form(key="email_from"):
     user_email = st.text_input("Your email address")
